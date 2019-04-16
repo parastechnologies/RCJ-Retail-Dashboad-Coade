@@ -1,0 +1,226 @@
+<div class="animated fadeIn">
+  
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-header">
+          <i class="fa fa-align-justify"></i> Usuários
+        </div>
+        <div class="card-body">
+          <!-- NOVO USUARIO -->
+          <div *ngIf="!editUser">
+            <div class="row mg-bot-10">
+              <div class="col-lg-4">
+                <label>Primeiro nome</label>
+                <input type="text" class="form-control" [(ngModel)]="newUser.firstName">
+              </div>
+              <div class="col-lg-4">
+                <label>Sobrenome</label>
+                <input type="text" class="form-control" [(ngModel)]="newUser.lastName">
+              </div>
+              <div class="col-lg-4">
+                <label>CPF</label>
+                <input type="text" class="form-control" [(ngModel)]="newUser.cpf">
+              </div>
+            </div>
+            <div class="row mg-bot-10">
+              <div class="col-lg-4">
+                <label>Cargo</label>
+                <select type="text" class="form-control" [(ngModel)]="newUser.office">
+                  <option value="DIRETOR">DIRETOR</option>
+                  <option value="GERENTE">GERENTE</option>
+                  <option value="SUPERVISOR">SUPERVISOR</option>
+                  <option value="COORDENADOR">COORDENADOR</option>
+                  <option value="VENDEDOR">VENDEDOR</option>
+                  <option value="ASSISTENTE">ASSISTENTE</option>
+                  <option value="ANALISTA DE COMPRAS">ANALISTA DE COMPRAS</option>
+                  <option value="ADM DE COMPRAS">ADM DE COMPRAS</option>
+                  <option value="PROMOTOR">PROMOTOR</option>
+                  <option value="RCA">RCA</option>
+                  <option value="MERCHANDISING">MERCHANDISING</option>
+                </select>
+              </div>
+              <div class="col-lg-4">
+                <label>Área</label>
+                <select class="form-control" [(ngModel)]="newUser.region" (change)="selectedArea($event.target.value)">
+                  <option *ngFor="let a of areas" [value]="a">{{a}}</option>
+                </select>
+              </div>
+              <div class="col-lg-4">
+                <label>Distribuidor</label>
+                <select type="text" class="form-control" [(ngModel)]="newUser.distributorName">
+                  <option *ngFor="let a of distributor" [value]="a.name">{{a.name}}</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mg-bot-20">
+              <div class="col-lg-8">
+                <label>E-mail</label>
+                <input type="text" class="form-control" [(ngModel)]="newUser.email">
+              </div>
+              <div class="col-lg-4">
+                <label></label>
+                <div class="novoUsuarioBtn" (click)="createUser()">
+                  Adicionar
+                </div>
+              </div>
+            </div>
+            <div class="row mg-bot-40">
+              <div class="col-lg-12 alignCenter">
+                <p *ngIf="showMessage" class="messageErr">{{message}}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- EDITAR USUARIO -->
+          <div *ngIf="editUser">
+            <div class="row mg-bot-10">
+              <div class="col-lg-4">
+                <label>Primeiro nome</label>
+                <input type="text" class="form-control" [(ngModel)]="newUser.firstName">
+              </div>
+              <div class="col-lg-4">
+                <label>Sobrenome</label>
+                <input type="text" class="form-control" [(ngModel)]="newUser.lastName">
+              </div>
+              <div class="col-lg-4">
+                <label>CPF</label>
+                <input type="text" class="form-control" [(ngModel)]="newUser.cpf">
+              </div>
+            </div>
+            <div class="row mg-bot-10">
+              <div class="col-lg-4">
+                <label>Cargo</label>
+                <select type="text" class="form-control" [(ngModel)]="newUser.office">
+                  <option value="DIRETOR">DIRETOR</option>
+                  <option value="GERENTE">GERENTE</option>
+                  <option value="SUPERVISOR">SUPERVISOR</option>
+                  <option value="COORDENADOR">COORDENADOR</option>
+                  <option value="VENDEDOR">VENDEDOR</option>
+                  <option value="ASSISTENTE">ASSISTENTE</option>
+                  <option value="ANALISTA DE COMPRAS">ANALISTA DE COMPRAS</option>
+                  <option value="ADM DE COMPRAS">ADM DE COMPRAS</option>
+                  <option value="PROMOTOR">PROMOTOR</option>
+                  <option value="RCA">RCA</option>
+                  <option value="MERCHANDISING">MERCHANDISING</option>
+                </select>
+              </div>
+              <div class="col-lg-4">
+                <label>Área</label>
+                <select type="text" class="form-control" [(ngModel)]="newUser.region">
+                  <option *ngFor="let a of areas" [value]="a">{{a}}</option>
+                </select>
+              </div>
+              <div class="col-lg-4">
+                <label>Distribuidor</label>
+                <select type="text" class="form-control" [(ngModel)]="newUser.distributorName">
+                  <option *ngFor="let a of distribuitors" [value]="a.name">{{a.name}}</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mg-bot-20">
+              <div class="col-lg-8">
+                <label>E-mail</label>
+                <input disabled type="text" class="form-control" [(ngModel)]="newUser.email">
+              </div>
+              <div class="col-lg-2">
+                <label></label>
+                <div class="novoUsuarioBtn" (click)="saveUser()">
+                  Salvar
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <label></label>
+                <div class="novoUsuarioBtn" style="background: #d91c49" (click)="cancelEdit()">
+                  Cancelar
+                </div>
+              </div>
+            </div>
+            <div class="row mg-bot-40">
+              <div class="col-lg-12 alignCenter">
+                <p *ngIf="showMessage" class="messageErr">{{message}}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="alignCenter" *ngIf="loading">
+            <div class="lds-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" style="margin-bottom: 10px;float: right;">
+              <input type="text" class="form-control" placeholder="Search" [(ngModel)]="query">
+          </div>
+
+          <!-- USUARIOS -->
+          <table class="table table-striped" *ngIf="!loading">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>CPF</th>
+                <th>Nível de acesso</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let user of usuarios | search :{fullName:query, cpf:query}  | paginate: { itemsPerPage: itemsPerPage, currentPage: p }" class="hoverRow">
+                 
+                <td>{{user?.fullName}}</td>
+                <td>{{user?.email}}</td>
+                <td>{{user?.cpf}}</td>
+                <td>
+                  <select class="form-control" [(ngModel)]="user.role" (change)="changeRole(user)">
+                    <option value="nenhum">Nenhum</option>
+                    <option value="promotor">Promotor</option>
+                    <option value="vendedorDistribuidora">Vendedor de Distruibuidora</option>
+                    <option value="gerente">Gerente/Supervisor</option>
+                    <option value="vendedorJohnson">Vendedor da Johnson</option>
+                    <option value="diretor">Diretor</option>
+                  </select>
+                </td>
+                <td>
+                  <button (click)="edit(user)" class="btn btn-sm btn-primary"><i class="fa fa-pencil"></i> Editar</button>
+                </td>
+                <td>
+                  <button (click)="trash(user)" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Excluir</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="col-lg-12">
+            
+            <div class="row">
+                <select class="form-control col-lg-2 col-md-2 col-sm-2 col-xs-12" [(ngModel)]="itemsPerPage">
+                    <option>10</option>
+                    <option>25</option>
+                    <option>50</option>
+                    <option>100</option>
+                  </select>
+                  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                      <pagination-controls style="float:right;" (pageChange)="p = $event"></pagination-controls>
+                  </div>
+            </div>
+          
+          </div>
+          
+          <!-- <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

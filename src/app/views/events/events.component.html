@@ -1,0 +1,108 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-header">
+          <i class="fa fa-list"></i> Events
+        </div>
+        <div class="card-body">
+            <div>
+                <div class="row mg-bot-10">
+                  <div class="col-lg-6">
+                    <label>título</label>
+                    <input type="text" class="form-control" [(ngModel)]="data.name">
+                  </div>
+                  <!-- <div class="col-lg-4">
+                      <label>Date</label>
+                      <input type="date" class="form-control" [(ngModel)]="data.data">
+                    </div> -->
+                    <div class="col-lg-6">
+                        <label>Local</label>
+                        <input type="text" class="form-control" [(ngModel)]="data.location">
+                      </div>
+                </div>
+
+                <div class="row mg-bot-20">
+                  <div class="col-lg-4">
+                    <label>início</label>
+                    <input class="form-control" [ngxTimepicker]="picker" [(ngModel)]="data.init">
+                    <ngx-material-timepicker #picker></ngx-material-timepicker>
+                  </div>
+                  <div class="col-lg-4">
+                      <label>fim</label>
+                      <input class="form-control" [ngxTimepicker]="picker1" [(ngModel)]="data.end">
+                    <ngx-material-timepicker #picker1></ngx-material-timepicker>
+                    </div>
+                    <div class="col-lg-4">
+                        <label>região</label>
+                        <select class="form-control" [(ngModel)]="data.region">
+                          <option *ngFor="let a of areas" [value]="a">{{a}}</option>
+                        </select>
+                        <!-- <ion-select [(ngModel)]="data.region" name="region">
+                          <ion-option value="all">Todas</ion-option>ƒ
+                          <ion-option *ngFor="let a of areas" [value]="a">{{a}}</ion-option>
+                      </ion-select> -->
+                        <!-- <input type="text" class="form-control" [(ngModel)]="data.region"> -->
+                      </div>
+                </div>
+                <div class="row mg-bot-20">
+                    
+                    <div class="col-lg-8">
+                        <label>Descrição</label>
+                        <textarea type="text" class="form-control" [(ngModel)]="data.description"></textarea>
+                      </div>
+                  <div class="col-lg-2">
+                    <label></label>
+                    <div class="novoUsuarioBtn" (click)="cancel()" style="background: #d91c49">
+                      Cancelar
+                    </div>
+                  </div>
+    
+                  <div class="col-lg-2">
+                    <label></label>
+                    <div class="novoUsuarioBtn" (click)="save()">
+                      Salvar
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row mg-bot-40">
+                <div class="col-lg-12 alignCenter">
+                  <p *ngIf="showMessage" class="messageErr">{{message}}</p>
+                </div>
+              </div>
+
+          <!-- <div class="alignCenter" *ngIf="loading">
+            <div class="lds-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div> -->
+
+          <!-- USUARIOS -->
+          <div *ngFor="let event of events">
+            <div class="row" *ngIf="event">
+              <div class="col-md-10">
+                <h5 style="color: #006684; margin-bottom: 0px">{{event.name}}</h5>
+                <p style="color: #d91c49; margin-top: 0px; margin-bottom: 10px">{{event.data | date:'dd/mm/yyyy h:mm'}}</p>
+                <p>{{event.title}}</p>
+              </div>
+              <div>
+                <button (click)="edit(event)" class="btn btn-sm btn-primary"><i class="fa fa-pencil"></i> Editar</button>
+                <button (click)="removeEvent(event)" class="btn btn-sm btn-danger" style="margin-left:10px;"><i class="fa fa-trash"></i> Excluir</button>
+                <!-- <div class="btnExcluir" (click)="removeEvent(event)">Remover</div> -->
+              </div>
+
+              <div style="height: 3px; background: #c3c3c3; width: 98%; margin-left: 1%; margin-top: 10px; margin-bottom: 30px; border-radius: 100px; opacity: 0.6"></div>
+          
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,95 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+//CUSTOM
+.hoverRow {
+    cursor: pointer;
+}
+.modal-body {
+  display: none !important
+}
+
+.btnExcluir {
+  background: #d91c49;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+//MARGINS
+.mg-bot-40 {
+    margin-bottom: 40px
+}
+.mg-bot-20 {
+    margin-bottom: 20px
+}
+.mg-bot-10 {
+    margin-bottom: 10px
+}
+
+.alignCenter {
+    text-align: center
+}
+
+.messageErr {
+    color: #d91c49;
+    font-weight: 700
+}
+
+.novoUsuarioBtn {
+    width: 100%;
+    padding: 7px;
+    background: #006684;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    margin-top: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+// LOADING
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #006684;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #006684 transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

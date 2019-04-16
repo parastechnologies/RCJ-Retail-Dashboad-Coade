@@ -1,0 +1,52 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-header">
+          <i class="fa fa-list"></i> Posts
+        </div>
+        <div class="card-body">
+          <div class="alignCenter" *ngIf="loading">
+            <div class="lds-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+          <!-- USUARIOS -->
+          <div>
+            <div class="row" *ngFor="let post of posts">
+              <div class="col-md-10">
+                <h5 style="color: #006684; margin-bottom: 0px">{{post.name}}</h5>
+                <p style="color: #d91c49; margin-top: 0px; margin-bottom: 10px">{{post.data | date:'dd/MM/yyyy HH:mm'}}</p>
+                <p>{{post.message}}</p>
+
+                <div *ngIf="post.type == 'photo' && post.photos">
+                  <div *ngIf="post.photos.length > 1">
+                    <div class="row">
+                      <div class="col-md-6" *ngFor="let i of post.photos">
+                        <img style="width: 50%" [src]="i" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div *ngIf="post.photos.length === 1">
+                    <img style="width: 50%" [src]="post.photos[0]" alt="">
+                  </div>
+                </div>
+                <!-- <img style="width: 50%" *ngIf="post.type == 'photo'" [src]="post.photoUrl" alt=""> -->
+              </div>
+              <div class="col-md-2">
+                <div class="btnExcluir" (click)="trash(post)">Remover</div>
+              </div>
+
+              <div style="height: 3px; background: #c3c3c3; width: 98%; margin-left: 1%; margin-top: 10px; margin-bottom: 30px; border-radius: 100px; opacity: 0.6"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

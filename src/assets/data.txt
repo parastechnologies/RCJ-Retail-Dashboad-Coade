@@ -1,0 +1,742 @@
+﻿{
+    "Planilha1": [
+        {
+            "email": "78590450449@scj.com",
+            "lastName": "BERNARDINO DE SENA SOBRINHO",
+            "firstName": "JOSIAS",
+            "fullName": "JOSIAS BERNARDINO DE SENA SOBRINHO",
+            "cpf": "78590450449",
+            "distributor": "DISTRIBUIDOR CDA - RN",
+            "password": "78590450449"
+        },
+        {
+            "email": "09780234470@scj.com",
+            "lastName": "LOPES DE MELO",
+            "firstName": "ANA CARLA",
+            "fullName": "ANA CARLA LOPES DE MELO",
+            "cpf": "09780234470",
+            "distributor": "DISTRIBUIDOR CDA - RN",
+            "password": "09780234470"
+        },
+        {
+            "email": "90172167515@scj.com",
+            "lastName": "SANTOS DE JESUS",
+            "firstName": "ADEMILTON",
+            "fullName": "ADEMILTON SANTOS DE JESUS",
+            "cpf": "90172167515",
+            "distributor": "DISTRIBUIDOR COUTRIM - BA",
+            "password": "90172167515"
+        },
+        {
+            "email": "38850376880@scj.com",
+            "lastName": "Rodrigues da Costa Junior",
+            "firstName": "Everaldo",
+            "fullName": "Everaldo Rodrigues da Costa Junior",
+            "cpf": "38850376880",
+            "distributor": "DISTRIBUIDOR DISCRA - SP",
+            "password": "38850376880"
+        },
+        {
+            "email": "07104583637@scj.com",
+            "lastName": "DA SILVA FERREIRA",
+            "firstName": "RODRIGO",
+            "fullName": "RODRIGO DA SILVA FERREIRA",
+            "cpf": "07104583637",
+            "distributor": "DISTRIBUIDOR IPIRANGA - MG",
+            "password": "07104583637"
+        },
+        {
+            "email": "01012953327@scj.com",
+            "lastName": "NARCELIO",
+            "firstName": "FRANCISCO",
+            "fullName": "FRANCISCO NARCELIO",
+            "cpf": "01012953327",
+            "distributor": "DISTRIBUIDOR IBIAPINA - CE",
+            "password": "01012953327"
+        },
+        {
+            "email": "35198877387@scj.com",
+            "lastName": "de Jesus Araújo",
+            "firstName": "José Flavio",
+            "fullName": "José Flavio de Jesus Araújo",
+            "cpf": "35198877387",
+            "distributor": "DISTRIBUIDOR Q PASSO - SP",
+            "password": "35198877387"
+        },
+        {
+            "email": "27864613837@scj.com",
+            "lastName": "SANDRO LOPES SILVA",
+            "firstName": "ALEX ",
+            "fullName": "ALEX  SANDRO LOPES SILVA",
+            "cpf": "27864613837",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "27864613837"
+        },
+        {
+            "email": "05690699470@scj.com",
+            "lastName": "SANTOS DE SOUSA",
+            "firstName": "EDSON ",
+            "fullName": "EDSON  SANTOS DE SOUSA",
+            "cpf": "05690699470",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05690699470"
+        },
+        {
+            "email": "08321801498@scj.com",
+            "lastName": "LUCAS DE AMORIM SILVA",
+            "firstName": "JACKSON ",
+            "fullName": "JACKSON  LUCAS DE AMORIM SILVA",
+            "cpf": "08321801498",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08321801498"
+        },
+        {
+            "email": "97255645453@scj.com",
+            "lastName": "TEOFILO DA SILVA",
+            "firstName": "JAELSON ",
+            "fullName": "JAELSON  TEOFILO DA SILVA",
+            "cpf": "97255645453",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "97255645453"
+        },
+        {
+            "email": "08341937441@scj.com",
+            "lastName": "DEYVSON SILVA DA COSTA",
+            "firstName": "JOSE ",
+            "fullName": "JOSE  DEYVSON SILVA DA COSTA",
+            "cpf": "08341937441",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08341937441"
+        },
+        {
+            "email": "08144452410@scj.com",
+            "lastName": "CASELI DA SILVA",
+            "firstName": "THIAGO ",
+            "fullName": "THIAGO  CASELI DA SILVA",
+            "cpf": "08144452410",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08144452410"
+        },
+        {
+            "email": "04357068452@scj.com",
+            "lastName": "MEIRELES DOS SANTOS PATRIOTA",
+            "firstName": "ELANY ",
+            "fullName": "ELANY  MEIRELES DOS SANTOS PATRIOTA",
+            "cpf": "04357068452",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "04357068452"
+        },
+        {
+            "email": "00766846440@scj.com",
+            "lastName": "MICIANO DE SOUZA",
+            "firstName": "MARCIO ",
+            "fullName": "MARCIO  MICIANO DE SOUZA",
+            "cpf": "00766846440",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "00766846440"
+        },
+        {
+            "email": "06444351430@scj.com",
+            "lastName": "CARLOS DOS SANTOS E SILVA",
+            "firstName": "THIAGO ",
+            "fullName": "THIAGO  CARLOS DOS SANTOS E SILVA",
+            "cpf": "06444351430",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06444351430"
+        },
+        {
+            "email": "09591643403@scj.com",
+            "lastName": "GUILHERME SILVA",
+            "firstName": "WELDER ",
+            "fullName": "WELDER  GUILHERME SILVA",
+            "cpf": "09591643403",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "09591643403"
+        },
+        {
+            "email": "07173448433@scj.com",
+            "lastName": "NUNES DE OLIVEIRA",
+            "firstName": "LIDIANE ",
+            "fullName": "LIDIANE  NUNES DE OLIVEIRA",
+            "cpf": "07173448433",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "07173448433"
+        },
+        {
+            "email": "06234695450@scj.com",
+            "lastName": "CARLA LOPES SANTOS",
+            "firstName": "DIEGA ",
+            "fullName": "DIEGA  CARLA LOPES SANTOS",
+            "cpf": "06234695450",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06234695450"
+        },
+        {
+            "email": "06179834458@scj.com",
+            "lastName": "RIBEIRO REZENDE",
+            "firstName": "EDJANE ",
+            "fullName": "EDJANE  RIBEIRO REZENDE",
+            "cpf": "06179834458",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06179834458"
+        },
+        {
+            "email": "04264234450@scj.com",
+            "lastName": "MARIA PEREIRA DA SILVA",
+            "firstName": "FLÁVIA ",
+            "fullName": "FLÁVIA  MARIA PEREIRA DA SILVA",
+            "cpf": "04264234450",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "04264234450"
+        },
+        {
+            "email": "10824857488@scj.com",
+            "lastName": "SOUTO DA SILVA",
+            "firstName": "JANAILSON ",
+            "fullName": "JANAILSON  SOUTO DA SILVA",
+            "cpf": "10824857488",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "10824857488"
+        },
+        {
+            "email": "04422585428@scj.com",
+            "lastName": "BARBOSA DE ASSUNÇÃO",
+            "firstName": "VALÉRIA ",
+            "fullName": "VALÉRIA  BARBOSA DE ASSUNÇÃO",
+            "cpf": "04422585428",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "04422585428"
+        },
+        {
+            "email": "10148291430@scj.com",
+            "lastName": "DAYSE BATISTA DE ALONSO",
+            "firstName": "DENISE ",
+            "fullName": "DENISE  DAYSE BATISTA DE ALONSO",
+            "cpf": "10148291430",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "10148291430"
+        },
+        {
+            "email": "08402657435@scj.com",
+            "lastName": "EMILAINE BEZERRA DA SILVA",
+            "firstName": "EDNA ",
+            "fullName": "EDNA  EMILAINE BEZERRA DA SILVA",
+            "cpf": "08402657435",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08402657435"
+        },
+        {
+            "email": "02561462412@scj.com",
+            "lastName": "SEVERINO DA SILVA",
+            "firstName": "ELIELSON ",
+            "fullName": "ELIELSON  SEVERINO DA SILVA",
+            "cpf": "02561462412",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "02561462412"
+        },
+        {
+            "email": "00742663493@scj.com",
+            "lastName": "PORTELA COELHO",
+            "firstName": "ABDORAL ",
+            "fullName": "ABDORAL  PORTELA COELHO",
+            "cpf": "00742663493",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "00742663493"
+        },
+        {
+            "email": "07237488457@scj.com",
+            "lastName": "PEREIRA DE LUCENA",
+            "firstName": "ALEXANDRE ",
+            "fullName": "ALEXANDRE  PEREIRA DE LUCENA",
+            "cpf": "07237488457",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "07237488457"
+        },
+        {
+            "email": "04109590493@scj.com",
+            "lastName": "OLIVEIRA GOMES",
+            "firstName": "GUILHERME ",
+            "fullName": "GUILHERME  OLIVEIRA GOMES",
+            "cpf": "04109590493",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "04109590493"
+        },
+        {
+            "email": "05227417466@scj.com",
+            "lastName": "PEREIRA DE LIMA SILVA",
+            "firstName": "ALBERES ",
+            "fullName": "ALBERES  PEREIRA DE LIMA SILVA",
+            "cpf": "05227417466",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05227417466"
+        },
+        {
+            "email": "07397920403@scj.com",
+            "lastName": "ALUIZIO DE JESUS",
+            "firstName": "LEONARDO ",
+            "fullName": "LEONARDO  ALUIZIO DE JESUS",
+            "cpf": "07397920403",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "07397920403"
+        },
+        {
+            "email": "05295346498@scj.com",
+            "lastName": "DANIEL DE SOUSA DELFINO",
+            "firstName": "FRANCISCO ",
+            "fullName": "FRANCISCO  DANIEL DE SOUSA DELFINO",
+            "cpf": "05295346498",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05295346498"
+        },
+        {
+            "email": "05191811402@scj.com",
+            "lastName": "ALICE ANDRADE DE ARAUJO",
+            "firstName": "MARIA ",
+            "fullName": "MARIA  ALICE ANDRADE DE ARAUJO",
+            "cpf": "05191811402",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05191811402"
+        },
+        {
+            "email": "05712666308@scj.com",
+            "lastName": "RAMOS HOLANDA",
+            "firstName": "ALEXSANDRO ",
+            "fullName": "ALEXSANDRO  RAMOS HOLANDA",
+            "cpf": "05712666308",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05712666308"
+        },
+        {
+            "email": "96673613300@scj.com",
+            "lastName": "FRANCISCO PINTO CARVALHO",
+            "firstName": "DIOGO ",
+            "fullName": "DIOGO  FRANCISCO PINTO CARVALHO",
+            "cpf": "96673613300",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "96673613300"
+        },
+        {
+            "email": "08680570451@scj.com",
+            "lastName": "ALANE LOURENÇO MOURA",
+            "firstName": "JESSICA ",
+            "fullName": "JESSICA  ALANE LOURENÇO MOURA",
+            "cpf": "08680570451",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08680570451"
+        },
+        {
+            "email": "11008697435@scj.com",
+            "lastName": "FELIPE DA SILVA",
+            "firstName": "GLEYDSON ",
+            "fullName": "GLEYDSON  FELIPE DA SILVA",
+            "cpf": "11008697435",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "11008697435"
+        },
+        {
+            "email": "03704193402@scj.com",
+            "lastName": "NOBRE DE SOUZA",
+            "firstName": "ROVANNEIME ",
+            "fullName": "ROVANNEIME  NOBRE DE SOUZA",
+            "cpf": "03704193402",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "03704193402"
+        },
+        {
+            "email": "00784709432@scj.com",
+            "lastName": "DE BARROS SILVA BEZERRA",
+            "firstName": "ELIZANGELA ",
+            "fullName": "ELIZANGELA  DE BARROS SILVA BEZERRA",
+            "cpf": "00784709432",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "00784709432"
+        },
+        {
+            "email": "00254643531@scj.com",
+            "lastName": "DOS SANTOS SILVA",
+            "firstName": "HAMILTON ",
+            "fullName": "HAMILTON  DOS SANTOS SILVA",
+            "cpf": "00254643531",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "00254643531"
+        },
+        {
+            "email": "03821936444@scj.com",
+            "lastName": "JOSE DA SILVA JUNIOR",
+            "firstName": "ADEILTON ",
+            "fullName": "ADEILTON  JOSE DA SILVA JUNIOR",
+            "cpf": "03821936444",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "03821936444"
+        },
+        {
+            "email": "06907634414@scj.com",
+            "lastName": "ROSE LOURENÇO MOURA",
+            "firstName": "ALINE ",
+            "fullName": "ALINE  ROSE LOURENÇO MOURA",
+            "cpf": "06907634414",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06907634414"
+        },
+        {
+            "email": "06553050414@scj.com",
+            "lastName": "SUELEM CLAUDINO ALVES",
+            "firstName": "JOELANY ",
+            "fullName": "JOELANY  SUELEM CLAUDINO ALVES",
+            "cpf": "06553050414",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06553050414"
+        },
+        {
+            "email": "10742294447@scj.com",
+            "lastName": "KALINE PEREIRA DE LEMOS LIMA",
+            "firstName": "RENATA ",
+            "fullName": "RENATA  KALINE PEREIRA DE LEMOS LIMA",
+            "cpf": "10742294447",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "10742294447"
+        },
+        {
+            "email": "12556828412@scj.com",
+            "lastName": "RAMON DOS SANTOS FERNANDES",
+            "firstName": "ILKISON ",
+            "fullName": "ILKISON  RAMON DOS SANTOS FERNANDES",
+            "cpf": "12556828412",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "12556828412"
+        },
+        {
+            "email": "09951501419@scj.com",
+            "lastName": "GONÇALVES DE ANDRADE",
+            "firstName": "CICERO ",
+            "fullName": "CICERO  GONÇALVES DE ANDRADE",
+            "cpf": "09951501419",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "09951501419"
+        },
+        {
+            "email": "70467171416@scj.com",
+            "lastName": "DOS SANTOS PEREIRA",
+            "firstName": "GRACIEL ",
+            "fullName": "GRACIEL  DOS SANTOS PEREIRA",
+            "cpf": "70467171416",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "70467171416"
+        },
+        {
+            "email": "12250808430@scj.com",
+            "lastName": "VITOR DIAS DE OLIVEIRA",
+            "firstName": "JOÃO ",
+            "fullName": "JOÃO  VITOR DIAS DE OLIVEIRA",
+            "cpf": "12250808430",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "12250808430"
+        },
+        {
+            "email": "10166494445@scj.com",
+            "lastName": "CRUZ DA SILVA",
+            "firstName": "IDERVAN ",
+            "fullName": "IDERVAN  CRUZ DA SILVA",
+            "cpf": "10166494445",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "10166494445"
+        },
+        {
+            "email": "06053471585@scj.com",
+            "lastName": "ELIAS RODRIGUES",
+            "firstName": "MAURICIO ",
+            "fullName": "MAURICIO  ELIAS RODRIGUES",
+            "cpf": "06053471585",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06053471585"
+        },
+        {
+            "email": "10916127494@scj.com",
+            "lastName": "DAMASCENO DE MELO",
+            "firstName": "MAIKY ",
+            "fullName": "MAIKY  DAMASCENO DE MELO",
+            "cpf": "10916127494",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "10916127494"
+        },
+        {
+            "email": "09842562450@scj.com",
+            "lastName": "KARLLUS LIBORIO DOS SANTOS",
+            "firstName": "DEMERSON ",
+            "fullName": "DEMERSON  KARLLUS LIBORIO DOS SANTOS",
+            "cpf": "09842562450",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "09842562450"
+        },
+        {
+            "email": "11859818455@scj.com",
+            "lastName": "DA SILVA CRUZ",
+            "firstName": "MARICELIA ",
+            "fullName": "MARICELIA  DA SILVA CRUZ",
+            "cpf": "11859818455",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "11859818455"
+        },
+        {
+            "email": "05549953447@scj.com",
+            "lastName": "FERNANDO DA SILVA",
+            "firstName": "ANTONIO ",
+            "fullName": "ANTONIO  FERNANDO DA SILVA",
+            "cpf": "05549953447",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05549953447"
+        },
+        {
+            "email": "64901246453@scj.com",
+            "lastName": "BEZERRA DE MENEZES JUNIOR",
+            "firstName": "CRISTOVAO ",
+            "fullName": "CRISTOVAO  BEZERRA DE MENEZES JUNIOR",
+            "cpf": "64901246453",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "64901246453"
+        },
+        {
+            "email": "01313346462@scj.com",
+            "lastName": "FERNANDO PAES WANDERLEY",
+            "firstName": "DIEGO ",
+            "fullName": "DIEGO  FERNANDO PAES WANDERLEY",
+            "cpf": "01313346462",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "01313346462"
+        },
+        {
+            "email": "99859742472@scj.com",
+            "lastName": "FRANCISCO DA CUNHA",
+            "firstName": "EDSON ",
+            "fullName": "EDSON  FRANCISCO DA CUNHA",
+            "cpf": "99859742472",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "99859742472"
+        },
+        {
+            "email": "06440772473@scj.com",
+            "lastName": "PEREIRA DOS SANTOS JUNIOR",
+            "firstName": "ANTONIO ",
+            "fullName": "ANTONIO  PEREIRA DOS SANTOS JUNIOR",
+            "cpf": "06440772473",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06440772473"
+        },
+        {
+            "email": "04058326484@scj.com",
+            "lastName": "DE ARAUJO SANTOS",
+            "firstName": "MARCELO ",
+            "fullName": "MARCELO  DE ARAUJO SANTOS",
+            "cpf": "04058326484",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "04058326484"
+        },
+        {
+            "email": "06012066490@scj.com",
+            "lastName": "DE LIMA SOUZA",
+            "firstName": "ISAIAS ",
+            "fullName": "ISAIAS  DE LIMA SOUZA",
+            "cpf": "06012066490",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06012066490"
+        },
+        {
+            "email": "07150569480@scj.com",
+            "lastName": "MANOEL DOS SANTOS",
+            "firstName": "DAVID ",
+            "fullName": "DAVID  MANOEL DOS SANTOS",
+            "cpf": "07150569480",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "07150569480"
+        },
+        {
+            "email": "07400566466@scj.com",
+            "lastName": "NIVALDO DIAS",
+            "firstName": "NIELSON ",
+            "fullName": "NIELSON  NIVALDO DIAS",
+            "cpf": "07400566466",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "07400566466"
+        },
+        {
+            "email": "08161302480@scj.com",
+            "lastName": "FERREIRA DA SILVA",
+            "firstName": "JOSINALDO ",
+            "fullName": "JOSINALDO  FERREIRA DA SILVA",
+            "cpf": "08161302480",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08161302480"
+        },
+        {
+            "email": "05562129400@scj.com",
+            "lastName": "JOAQUIM DE SANTANA",
+            "firstName": "EVALDO ",
+            "fullName": "EVALDO  JOAQUIM DE SANTANA",
+            "cpf": "05562129400",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05562129400"
+        },
+        {
+            "email": "03407294492@scj.com",
+            "lastName": "ANTONIO BARBOSA CAVALCANTI JUNIOR",
+            "firstName": "FERNANDO ",
+            "fullName": "FERNANDO  ANTONIO BARBOSA CAVALCANTI JUNIOR",
+            "cpf": "03407294492",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "03407294492"
+        },
+        {
+            "email": "08847666406@scj.com",
+            "lastName": "ALVES DE BARROS SILVA",
+            "firstName": "LAUDIANE ",
+            "fullName": "LAUDIANE  ALVES DE BARROS SILVA",
+            "cpf": "08847666406",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08847666406"
+        },
+        {
+            "email": "03455349480@scj.com",
+            "lastName": "PAULO DOS SANTOS SILVA",
+            "firstName": "JOSE ",
+            "fullName": "JOSE  PAULO DOS SANTOS SILVA",
+            "cpf": "03455349480",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "03455349480"
+        },
+        {
+            "email": "01183556438@scj.com",
+            "lastName": "DE CASSIA DA SILVA FERREIRA",
+            "firstName": "NAYARA ",
+            "fullName": "NAYARA  DE CASSIA DA SILVA FERREIRA",
+            "cpf": "01183556438",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "01183556438"
+        },
+        {
+            "email": "10656387440@scj.com",
+            "lastName": "FORTUNATO DA SILVA SANTOS",
+            "firstName": "BRUNO ",
+            "fullName": "BRUNO  FORTUNATO DA SILVA SANTOS",
+            "cpf": "10656387440",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "10656387440"
+        },
+        {
+            "email": "76478254453@scj.com",
+            "lastName": "ROBERTO SOBRAL",
+            "firstName": "JOSE ",
+            "fullName": "JOSE  ROBERTO SOBRAL",
+            "cpf": "76478254453",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "76478254453"
+        },
+        {
+            "email": "04330861496@scj.com",
+            "lastName": "ROBERTO DA SILVA",
+            "firstName": "JOSE ",
+            "fullName": "JOSE  ROBERTO DA SILVA",
+            "cpf": "04330861496",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "04330861496"
+        },
+        {
+            "email": "05204432418@scj.com",
+            "lastName": "FERREIRA DA SILVA",
+            "firstName": "LUCAS ",
+            "fullName": "LUCAS  FERREIRA DA SILVA",
+            "cpf": "05204432418",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05204432418"
+        },
+        {
+            "email": "08807856409@scj.com",
+            "lastName": "TAVARES DA SILVA",
+            "firstName": "JAIRO ",
+            "fullName": "JAIRO  TAVARES DA SILVA",
+            "cpf": "08807856409",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08807856409"
+        },
+        {
+            "email": "10820371416@scj.com",
+            "lastName": "MANOEL DA SILVA JUNIOR",
+            "firstName": "HERACHIO ",
+            "fullName": "HERACHIO  MANOEL DA SILVA JUNIOR",
+            "cpf": "10820371416",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "10820371416"
+        },
+        {
+            "email": "05853429469@scj.com",
+            "lastName": "GILSON DE SOUZA SILVA",
+            "firstName": "CARLOS ",
+            "fullName": "CARLOS  GILSON DE SOUZA SILVA",
+            "cpf": "05853429469",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "05853429469"
+        },
+        {
+            "email": "08675164459@scj.com",
+            "lastName": "JOSE DO NASCIMENTO",
+            "firstName": "ELIEL ",
+            "fullName": "ELIEL  JOSE DO NASCIMENTO",
+            "cpf": "08675164459",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08675164459"
+        },
+        {
+            "email": "09581032401@scj.com",
+            "lastName": "CINESIO DE SOUZA SILVA",
+            "firstName": "ROGERLAN ",
+            "fullName": "ROGERLAN  CINESIO DE SOUZA SILVA",
+            "cpf": "09581032401",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "09581032401"
+        },
+        {
+            "email": "08987466477@scj.com",
+            "lastName": "LOPES DE FRANCA",
+            "firstName": "JAERSON ",
+            "fullName": "JAERSON  LOPES DE FRANCA",
+            "cpf": "08987466477",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "08987466477"
+        },
+        {
+            "email": "02652341405@scj.com",
+            "lastName": "COSTA DOS PRAZERES",
+            "firstName": "PATRICIA ",
+            "fullName": "PATRICIA  COSTA DOS PRAZERES",
+            "cpf": "02652341405",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "02652341405"
+        },
+        {
+            "email": "07109734463@scj.com",
+            "lastName": "MARIA SILVA DE OLIVEIRA",
+            "firstName": "MARCIA ",
+            "fullName": "MARCIA  MARIA SILVA DE OLIVEIRA",
+            "cpf": "07109734463",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "07109734463"
+        },
+        {
+            "email": "06325550412@scj.com",
+            "lastName": "MARIA DA SILVA",
+            "firstName": "CREMILDA ",
+            "fullName": "CREMILDA  MARIA DA SILVA",
+            "cpf": "06325550412",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "06325550412"
+        },
+        {
+            "email": "04265922473@scj.com",
+            "lastName": "VIRGINIA CHAVES SILVA",
+            "firstName": "ALINE ",
+            "fullName": "ALINE  VIRGINIA CHAVES SILVA",
+            "cpf": "04265922473",
+            "distributor": "DISTRIBUIDOR EBD - INTERIOR PE",
+            "password": "04265922473"
+        }
+    ]
+}

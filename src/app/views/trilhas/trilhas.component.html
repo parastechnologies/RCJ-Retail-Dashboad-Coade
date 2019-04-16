@@ -1,0 +1,83 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-header">
+          <i class="fa fa-list"></i> Trilhas
+        </div>
+        <div class="card-body">
+          <!-- NOVO USUARIO -->
+          <div *ngIf="!editCurso">
+            <div class="row mg-bot-10">
+              <div class="col-lg-12">
+                <label>Aula</label>
+                <select class="form-control" [(ngModel)]="trilha.lessonId">
+                  <option *ngFor="let l of lessons" [value]="l.id">{{l.name}}</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mg-bot-20">
+              <div class="col-lg-8">
+                <label>Ordem de exibição</label>
+                <input type="number" class="form-control" [(ngModel)]="trilha.order">
+              </div>
+              <div class="col-lg-4">
+                <label></label>
+                <div class="novoUsuarioBtn" (click)="novaTrilha()">
+                  Adicionar
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="alignCenter" *ngIf="loading">
+            <div class="lds-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+          <!-- USUARIOS -->
+          <table class="table table-striped" *ngIf="!loading">
+            <thead>
+              <tr>
+                <th>Título</th>
+                <th>Ordem</th>
+                <th></th>
+                <!-- <th></th>
+                <th></th> -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let c of cursos" class="hoverRow">
+                <td>{{c?.name}}</td>
+                <td>{{c?.order2}}</td>
+                <!-- <td>
+                  <button (click)="edit(c)" class="btn btn-sm btn-primary"><i class="fa fa-pencil"></i> Editar</button>
+                </td> -->
+                <!-- <td>
+                  <button (click)="modules()" class="btn btn-sm btn-secondary"><i class="fa fa-bookmark"></i> Trilhas</button>
+                </td> -->
+                <td><button (click)="trash(c)" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Excluir</button></td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

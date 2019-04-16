@@ -1,0 +1,107 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-header">
+          <i class="fa fa-list"></i> Quizzes
+        </div>
+        <div class="card-body">
+
+          <div>
+            <div class="row mg-bot-10">
+              <div class="col-lg-12">
+                <label>Questão</label>
+                <textarea type="text" class="form-control" [(ngModel)]="quiz.quiz"></textarea>
+              </div>
+            </div>
+            <div class="row mg-bot-10">
+              <div class="col-lg-12">
+                <label>Resposta correta</label>
+                <textarea type="text" class="form-control" [(ngModel)]="quiz.correct_answer"></textarea>
+              </div>
+            </div>
+            <div class="row mg-bot-10">
+              <div class="col-lg-11">
+                <label>Resposta incorreta</label>
+                <input type="text" class="form-control" [(ngModel)]="incorreta">
+              </div>
+
+              <div class="col-lg-1">
+                <label></label>
+                <div class="novoUsuarioBtn" (click)="addIncorreta()">
+                  +
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mg-bot-10" *ngIf="quiz.invalid_answers.length > 0">
+            <div class="col-lg-12">
+              <label>Incorretas</label>
+              <div class="row" *ngFor="let i of quiz.invalid_answers; let o = index" style="margin-bottom: 5px">
+                <div class="col-md-11">
+                  <input  type="text" class="form-control" disabled [value]="i.answer">
+                </div>
+                <div class="col-md-1">
+                  <div class="novoUsuarioBtn"   style="background: #d91c49; margin-top: 0px" (click)="remove(o)">
+                    -
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row mg-bot-20">
+            <div class="col-lg-12">
+              <label></label>
+              <div class="novoUsuarioBtn" (click)="add()">
+                Adicionar
+              </div>
+            </div>
+          </div>
+
+
+          <div class="alignCenter" *ngIf="loading">
+            <div class="lds-ring">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+          <!-- USUARIOS -->
+          <table class="table table-striped" *ngIf="!loading">
+            <thead>
+              <tr>
+                <th>Questão</th>
+                <th>Resposta</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let q of quizzes" class="hoverRow">
+                <td>{{q?.quiz}}</td>
+                <td>{{q?.correct_answer}}</td>
+                <td>
+                  <button (click)="edit(q)" class="btn btn-sm btn-primary"><i class="fa fa-pencil"></i> Editar</button>
+                </td>
+                <td><button (click)="trash(q)" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Excluir</button></td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
